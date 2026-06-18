@@ -1,0 +1,36 @@
+
+/* start header home section  */
+
+.header-home{
+    height: 580px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}   
+
+@media (max-width:639px){
+    .header-home{
+        background-position: right;
+    }
+}
+
+/* end header home section  */
+
+
+/* start touch home section  */
+
+
+.touch-home{
+    height: 750px;
+    background:  url(../img/Path\ 62.png) , url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+@media (max-width:1023px){
+    .touch-home{
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+}
+
+/* end touch home section  */
